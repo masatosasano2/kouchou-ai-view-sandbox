@@ -1,3 +1,7 @@
+## Setup
+
+### `npm install`
+
 ## Commands
 
 ### `npm start`
