@@ -3,15 +3,11 @@ import ReactDOM from 'react-dom/client';
 import SampleView from './SampleView';
 import { sampleEmbeddings } from './sampleData';
 
-const root = ReactDOM.createRoot(
+ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
-);
-root.render(
+)
+.render(
   <React.StrictMode>
-    <SampleView
-      embeddings={sampleEmbeddings}
-      maxLevel={0}
-      sliderMax={100}
-    />
+    <SampleView embeddings={sampleEmbeddings}/>
   </React.StrictMode>
 );
